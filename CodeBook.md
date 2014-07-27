@@ -1,5 +1,4 @@
-==================================================================
- CODE BOOK OF Human Activity Recognition Using Smartphones Dataset 
+CODE BOOK OF Human Activity Recognition Using Smartphones Dataset 
 
 ==================================================================
 The dataset contains  experiments conducted on 30 people when they performed six activities namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING wearing a smartphone on their waist. The sample population of 30 people were in the age group of 19-48 years. Various parameters were calculated especially the linear acceleration and angular velocity in all the three axes, x,y,z.
