@@ -18,7 +18,7 @@ col3<-c("Subject","Activity")
 col4<-append(col3,col2)
 df1<-df[,col4]
 cl<-colnames(df1)[3:dim(df1)[2]]
-aggdata<-aggregate(. ~ Subject + Activity, data = tidy_df, FUN=mean)
+aggdata<-aggregate(. ~ Subject + Activity, data = df1, FUN=mean)
 tidy_df<-aggdata[order(aggdata$"Subject",aggdata$"Activity"),]
 write.table(tidy_df,file="./tidy_dataset.txt",sep=" ",row.names=FALSE,col.names=TRUE,eol="\n")
 
