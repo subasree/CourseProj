@@ -12,6 +12,8 @@ The R program creates takes training and test data sets and merges them together
 DATA:
 The R script requires the train and test folders in the same directory as the script. The train folder is required to have the files X_train.txt, y_train.txt, subject_train.txt whereas the test folder should have the files X_test.txt, y_test.txt, subject_test.txt 
 
+The specified datasets are obtained from 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 ==================================================================
