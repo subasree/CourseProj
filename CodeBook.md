@@ -6,7 +6,7 @@ The dataset contains  experiments conducted on 30 people when they performed six
 
 
 ==================================================================
-DATA DESCRIPTION
+RAW DATA DESCRIPTION
 
 Train datasset contains 70% of the entire dataset
 
@@ -18,8 +18,21 @@ Similarly, test files also contain data for 30% of the entire dataset.
 
 No subject specific data is split across the train and test data sets.
 
+
+==================================================================
+Subject
+Integer data 
+Range: 1 - 30
+
+Activity
+Integer data
+Range: 1-6
+
+
 Feature Selection 
 =================
+
+The features are about 561 variables described as below.
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -75,4 +88,18 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
+
+==================================================================
+
+TIDY DATA DESCRIPTION
+
+- Test and training data sets are required to be merged into one data set.
+- Mean and standard deviation columns are required to be extracted.
+- Activities of the subject are to be named using descriptive names.
+- Column names are to be named so that they can be understood easily.
+- Mean of the mentioned variables are to be calculated for each combination of subject and activity.
+
+
+
+
 
