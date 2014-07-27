@@ -27,7 +27,7 @@ PROCESS:
 
 - Sensible and understandable feature variables are provided and are assigned to colnames of the dataframe
 
-- grepl function is used to extract only those columns which have the string mean in them
+- grepl function is used to extract only those columns which have the string mean  and StdDevn in them
 
 - Tidy dataset requires that the mean is to be calculated for each combination of subject and activity. This is done using aggregate() function.
 
